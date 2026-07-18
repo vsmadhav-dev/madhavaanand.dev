@@ -1,1 +1,188 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madhav Aanand | Dev Portfolio &amp; Systems Engineer</title>
+    <!-- Google Fonts for Developer Aesthetics -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="CSS\styles.css">
+</head>
+<body>
+
+    <!-- FLOATING SYSTEM NAVIGATION BAR -->
+    <nav class="portfolio-nav">
+        <div class="nav-brand">
+            <span>madhav:~</span><span class="brand-cursor"></span>
+        </div>
+        <div class="nav-links-wrapper">
+            <a href="#hero" class="portfolio-link">Home</a>
+            <a href="#about" class="portfolio-link">bio</a>
+            <a href="#skills" class="portfolio-link">my stack</a>
+            <a href="#projects" class="portfolio-link">repo</a>
+            <a href="#connect" class="nav-cta-btn">contact</a>
+        </div>
+    </nav>
+
+    <!-- CORE HERO WINDOW ENGINE ("MY HOME") -->
+    <section id="hero" class="hero-showcase">
+        <div class="sys-status-badge">
+            <span class="status-pulse-dot"></span> local_status: compiles_successfully
+        </div>
+        
+        <!-- WRAPPED DEV HEADSHOT CONFIGURATION -->
+        <div class="hero-profile-container">
+            <div class="profile-photo-frame">
+                <img src="Assets\transparent.png" alt="Madhav Aanand Profile">
+            </div>
+        </div>
+
+        <h1 class="hero-display-title gradient-text">Madhav Aanand</h1>
+        <div class="hero-sub-aspiration">System Logic &amp; Frontend Architect</div>
+
+        <!-- LIVE TERMINAL EMULATION BOX -->
+        <div class="terminal-block">
+            <div class="terminal-bar">
+                <div class="terminal-dots">
+                    <div class="dot dot-red"></div>
+                    <div class="dot dot-yellow"></div>
+                    <div class="dot dot-green"></div>
+                </div>
+                <div class="terminal-tab">profile_bio.c</div>
+            </div>
+            <div class="terminal-body">
+                <span>$ cat madhav_manifesto.log</span><br>
+                <p class="terminal-line-output">
+                    I am a student developer merging structural procedural execution with functional design. 
+                    By building systems logic in C alongside clean front-ends with CSS grid and semantic elements, 
+                    I construct applications that perform efficiently and scale smoothly.
+                </p>
+            </div>
+        </div>
+
+        <div class="hero-button-group">
+            <a href="#projects" class="portfolio-primary-btn">./execute_portfolio</a>
+            <a href="#connect" class="portfolio-secondary-btn">cat connect.txt</a>
+        </div>
+    </section>
+
+    <!-- IMPROVED SYSTEM NARRATIVE ROWS (ABOUT / BIO) -->
+    <section id="about" class="about-showcase">
+        <div>
+            <span class="sys-token">core_identity</span>
+            <h2 class="about-display-heading">The intersection of machine logic &amp; interfaces.</h2>
+            <p class="about-body-text">
+                I focus on writing fast, deterministic backend environments alongside accessible front-ends. Moving from structural algorithms in software to the fluid layouts of modern web components allows me to build applications that are reliable on the inside and striking on the outside.
+            </p>
+        </div>
+        <div class="about-highlights-grid">
+            <div class="highlight-row">
+                <h3 class="highlight-row-title">0x01 // Systems Programming</h3>
+                <div class="highlight-row-desc">Designing optimized algorithms, data models, and safe pointer tracking frameworks.</div>
+            </div>
+            <div class="highlight-row">
+                <h3 class="highlight-row-title">0x02 // Frontend Architecture</h3>
+                <div class="highlight-row-desc">Constructing responsive, standards-compliant layouts built completely on semantic markup.</div>
+            </div>
+            <div class="highlight-row">
+                <h3 class="highlight-row-title">0x03 // Operational Discipline</h3>
+                <div class="highlight-row-desc">Maintaining well-documented repositories, modular code logic, and precise styling formulas.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- IMPROVED CURATED DEV PROJECTS SECTION -->
+    <section id="projects" class="projects-showcase">
+        <span class="sys-token">source_controlled_repositories</span>
+        <h2 class="section-display-heading">Featured Repositories</h2>
+        
+        <div class="projects-showcase-grid">
+            <!-- Project Card 1 -->
+            <div class="portfolio-project-card">
+                <div class="project-card-header">
+                    <span>src/systems/db/</span>
+                    <span>c-procedural</span>
+                </div>
+                <h3 class="project-card-title">student-database-manager</h3>
+                <p class="project-card-desc">A fast, file-based management system written in pure procedural C. Features custom structural queries, sorted record indexing, and robust data persistence validation routines.</p>
+                <div class="project-tech-tags">
+                    <span class="tag-badge">C_Language</span>
+                    <span class="tag-badge">File_IO</span>
+                    <span class="tag-badge">Persistence</span>
+                </div>
+            </div>
+            <!-- Project Card 2 -->
+            <div class="portfolio-project-card">
+                <div class="project-card-header">
+                    <span>src/systems/library/</span>
+                    <span>c-core</span>
+                </div>
+                <h3 class="project-card-title">library-management-system</h3>
+                <p class="project-card-desc">An administrative software suite designed to allocate and verify resource loans. Optimized memory profiles map pointers cleanly for predictable database updates.</p>
+                <div class="project-tech-tags">
+                    <span class="tag-badge">C_Core</span>
+                    <span class="tag-badge">Memory_Mapping</span>
+                    <span class="tag-badge">Git_Ecosystem</span>
+                </div>
+            </div>
+        </div>
+        <div class="projects-footer-cta">
+            <a href="https://github.com" target="_blank" class="github-profile-btn">sh verification_handshake.sh --fetch-all GitHub &rarr;</a>
+        </div>
+    </section>
+
+    <!-- SKILLS Toolkit -->
+    <section id="skills" class="skills-showcase">
+        <div class="center-header">
+            <span class="sys-token">runtime_dependencies</span>
+            <h2 class="section-display-heading">My Engineering Toolkit</h2>
+        </div>
+        <div class="skills-showcase-grid">
+            <div class="skill-category-card">
+                <h3 class="skill-category-title">Low_Level</h3>
+                <div class="skill-pill-container">
+                    <span class="skill-pill">C (Procedural)</span>
+                    <span class="skill-pill">File I/O Stream</span>
+                    <span class="skill-pill">Data Structures</span>
+                </div>
+            </div>
+            <div class="skill-category-card">
+                <h3 class="skill-category-title">Client_Side</h3>
+                <div class="skill-pill-container">
+                    <span class="skill-pill">HTML5 Syntax</span>
+                    <span class="skill-pill">CSS3 Flex/Grid</span>
+                    <span class="skill-pill">Modern DOM Native</span>
+                </div>
+            </div>
+            <div class="skill-category-card">
+                <h3 class="skill-category-title">Environment</h3>
+                <div class="skill-pill-container">
+                    <span class="skill-pill">JavaScript ES6+</span>
+                    <span class="skill-pill">Git Workspace</span>
+                    <span class="skill-pill">GitHub Remote</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO CLOSING CONSOLE (FOOTER) -->
+    <footer id="connect" class="portfolio-footer">
+        <h2 class="footer-cta-title">Establish Handshake.</h2>
+        <p class="footer-cta-subtitle">Initialize contact protocols for upcoming system constraints or build tasks.</p>
+        <a href="mailto:madhavaanand014@gmail.com" class="footer-mail-btn">madhavaanand014@gmail.com</a>
+        
+        <div class="footer-credits-bar">
+            <div>stdout // 2026 Madhav Aanand // Compiled successfully.</div>
+            <div class="footer-socials">
+                <a href="https://github.com" target="_blank" class="social-link">[GitHub]</a>
+                
+                <a href="https://x.com/MadhavAana87976" class="social-link">[Twitter]</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
